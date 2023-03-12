@@ -4,7 +4,7 @@
 .yuentracker08 { --bg-color:#fff;--back:210,210,210;--text:#222;
 width:450px;margin:20px auto;color:var(--text);font:15px jaldi;line-height:18px; }
 .yuentracker08-box { background:var(--bg-color);box-shadow:0px 0px 8px -3px rgba(0,0,0,0.4);border-radius:12px;padding:15px; }
-/*.yuentracker08-dark { --bg-color:#222;--back:5,5,5;--text:#eee;--yeet:#4C5285;--moon:#3F662D; }*/
+/*.yuentracker08-dark { --bg-color:#222;--back:5,5,5;--text:#eee;--yeet:#cc9eb9;--moon:#5c468c; }*/
 
 .yuentracker08-head { margin-bottom:10px; }
 .yuentracker08-head div { min-width:120px;background:rgba(var(--back),0.2);border-radius:7px;width:100%;overflow:hidden;padding-bottom:8px; }
