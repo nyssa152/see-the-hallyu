@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Jaldi:400,700|Knewave');
+@import url('https://moonien.github.io/yuen01.css');
+
+.yuentracker08 { --bg-color:#fff;--back:210,210,210;--text:#222;
+width:450px;margin:20px auto;color:var(--text);font:15px jaldi;line-height:18px; }
+.yuentracker08-box { background:var(--bg-color);box-shadow:0px 0px 8px -3px rgba(0,0,0,0.4);border-radius:12px;padding:15px; }
+/*.yuentracker08-dark { --bg-color:#222;--back:5,5,5;--text:#eee;--yeet:#4C5285;--moon:#3F662D; }*/
+
+.yuentracker08-head { margin-bottom:10px; }
+.yuentracker08-head div { min-width:120px;background:rgba(var(--back),0.2);border-radius:7px;width:100%;overflow:hidden;padding-bottom:8px; }
+.yuentracker08-head span:before { display:block;content:"";border-left:500px solid transparent;border-bottom:20px solid var(--moon);height:0px;position:absolute;margin-top:-20px; }
+.yuentracker08-head span,
+.yuentracker08-head font { text-align:right;display:block;color:var(--bg-color);background:var(--moon);text-shadow:2px 2px 0px rgba(20,20,20,0.2);transform:rotate(-7deg);transform-origin:0% 0%;margin:0px -10px;margin-top:40px;padding:7px 30px; }
+.yuentracker08-head span { font:30px knewave; }
+.yuentracker08-head font { background:var(--yeet);text-shadow:1px 1px 0px rgba(20,20,20,0.3);text-transform:uppercase;padding:5px 30px;margin:0px -15px;margin-top:-8px;transform:rotate(-3deg);transform-origin:0% 0%; }
+
+.yuentracker08-head ystar,
+.yuentracker08-head ysun { display:block;position:absolute;z-index:2;font:130px honeybee;line-height:140px; }
+.yuentracker08-head ystar { transform:rotate(0deg);margin-left:-28px;margin-top:-30px; }
+.yuentracker08-head ysun { transform:rotate(-0deg);margin-left:55px;margin-top:33px; }
+.yuentracker08-head ystar:before,
+.yuentracker08-head ysun:before,
+.yuentracker08-head ystar:after,
+.yuentracker08-head ysun:after { content:"\eb67";position:absolute;z-index:3; }
+.yuentracker08-head ysun:before,
+.yuentracker08-head ysun:after { font-size:110px;line-height:110px;content:"\ec11"; }
+.yuentracker08-head ystar:before,
+.yuentracker08-head ysun:before { color:var(--bg-color);-webkit-text-stroke:4px;-webkit-text-fill-color:transparent;color:var(--bg-color); }
+.yuentracker08-head ystar:after,
+.yuentracker08-head ysun:after { background:var(--bgimg);background-size:cover;background-position:center;background-clip:text;-webkit-background-clip:text;color:transparent; }
+
+.yuentracker08-cont div:nth-child(odd) { --yeet:var(--moon); }
+.yuentracker08-title { display:block;border-radius:7px;background:var(--yeet);color:var(--yeet);padding:15px;text-transform:uppercase;margin-top:20px; }
+.yuentracker08-title b { display:inline-block;background:var(--bg-color);border-radius:5px;padding:3px 5px;font-size:17px; }
+.yuentracker08-thread { background:rgba(var(--back),0.2);border-radius:7px;padding:15px;margin-top:10px;overflow:hidden; }
+.yuentracker08-thread b { float:right;margin:15px;margin-top:-15px;margin-right:-15px;background:var(--yeet);border-bottom-left-radius:10px;padding:8px;color:var(--bg-color);text-transform:uppercase; }
+.yuentracker08-thread a { width:max-content;text-decoration:none;color:var(--yeet)!important;display:block;text-transform:uppercase;font:700 16px jaldi;line-height:20px; }
